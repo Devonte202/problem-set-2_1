@@ -71,7 +71,7 @@
 11. Evaluate the following expressions using JavaScripts implicit coercion rules. Then, in one sentence, explain what coercions were applied and why:
 
   * `8 * null` = 0  [null is coerced to be 0 because the rule is when an arithmetic operator is used both operands will be coerced to be numbers.]
-  * `"5" - 1` = 1 [5 is coerced to be 0 because the rule is when an arithmetic operator is used both operands will be coerced to be numbers.]
+  * `"5" - 1` = "51" [1 is coerced to be a string because the rule is when an arithmetic operator is used when one of the operands is a string, both operands are just concatenated.]
   * `"5" + 1` = 4 [5 is coerced to be 0 because the rule is when an arithmetic operator is used both operands will be coerced to be numbers.]
   * `true + false` = 1 [True is coerced to be 1 and False is coerced to be 0 because the rule is when an arithmetic operator is used both operands will be coerced to be numbers.]
   * `"i am" + undefined` = i amundefined [i am is a string that isn't abstractly a number so "undefined" is coerced into being a string.]
